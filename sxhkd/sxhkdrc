@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# brightness
+XF86MonBrightness{Up,Down}
+	xbacklight -{inc 10,dec 10}
+	
 # terminal emulator
 super + Return
 	alacritty

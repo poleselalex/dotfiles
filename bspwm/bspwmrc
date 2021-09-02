@@ -7,6 +7,8 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 bspc config border_width         2
 bspc config window_gap          12
 
+bspc config border_radius 12
+
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
@@ -17,6 +19,9 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
+# Fix java issues
+wmname LG3D
+
 # Restore Wallpaper
 nitrogen --restore
 
@@ -24,4 +29,5 @@ nitrogen --restore
 $HOME/.config/polybar/launch.sh
 
 # Launch Picom
-picom --experimental-backends --backend glx 
+#picom --experimental-backends --backend glx 
+
