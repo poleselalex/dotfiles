@@ -8,4 +8,4 @@ source $HOME/.config/nvim/plugins.vim
 
 " Mappings
 
-
+ source $HOME/.config/nvim/mappings.vim
