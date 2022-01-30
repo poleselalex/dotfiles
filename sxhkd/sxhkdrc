@@ -2,6 +2,15 @@
 # wm independent hotkeys
 #
 
+
+# volume
+XF86AudioLowerVolume
+	amixer set Master 5%-
+XF86AudioRaiseVolume
+	amixer set Master 5%+
+XF86AudioMute
+        amixer set Master toggle
+
 # brightness
 XF86MonBrightness{Up,Down}
 	xbacklight -{inc 10,dec 10}
@@ -12,7 +21,11 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show drun 
+	$HOME/.config/rofi/launchers/text/launcher.sh 
+
+# chromium
+super + c
+	chromium
 
 # make sxhkd reload its configuration files:
 super + Escape
