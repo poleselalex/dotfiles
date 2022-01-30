@@ -1,0 +1,22 @@
+[color]
+background = #3b3133
+foreground = #e1fff2
+foreground-dark = #e1fff2
+foreground-dark-light = #e1fff2
+transparent = #00000000
+black = #3b3133
+red = #E13942
+green = #BFF0CD
+yellow = #e78a4e
+blue = #7daea3
+magenta = #d3869b
+cyan = #89b482
+white = #dfbf8e
+altblack = #928374
+altred = #ea6962
+altgreen = #a9b665
+altyellow = #e3a84e
+altblue = #7daea3
+altmagenta = #d3869b
+altcyan = #89b482
+altwhite = #dfbf8e
