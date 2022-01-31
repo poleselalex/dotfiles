@@ -1,0 +1,14 @@
+@import "theme.rasi"
+
+configuration {
+	modi: "window,run,combi";
+	width: 50;
+	lines: 3;
+	font: "Inconsolata 12";
+	line-margin: 30;
+	show-icons: true;
+	terminal: "alacritty";
+	combi-modi: "window,run";
+	fake-transparency: true;
+
+}
